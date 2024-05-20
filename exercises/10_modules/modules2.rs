@@ -7,12 +7,16 @@
 // Execute `rustlings hint modules2` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
-
 mod delicious_snacks {
+<<<<<<< HEAD:exercises/modules/modules2.rs
+    // Just like items, name bindings as a result of use is private by default.
+    pub use self::fruits::PEAR as fruit;
+    pub use self::veggies::CUCUMBER as veggie;
+=======
     // TODO: Fix these use statements
     use self::fruits::PEAR as ???
     use self::veggies::CUCUMBER as ???
+>>>>>>> main:exercises/10_modules/modules2.rs
 
     mod fruits {
         pub const PEAR: &'static str = "Pear";
